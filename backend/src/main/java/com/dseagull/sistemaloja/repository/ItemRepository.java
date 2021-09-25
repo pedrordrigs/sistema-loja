@@ -1,11 +1,11 @@
 package com.dseagull.sistemaloja.repository;
 
-import com.dseagull.sistemaloja.entity.ItemEstoque;
+import com.dseagull.sistemaloja.entity.Item;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface ItemEstoqueRepository extends CrudRepository<ItemEstoque, Long> {
+public interface ItemRepository extends CrudRepository<Item, Long> {
 
-    List<ItemEstoque> findAll();
+    List<Item> findAll();
 }
