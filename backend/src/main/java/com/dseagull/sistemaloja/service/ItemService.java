@@ -4,7 +4,7 @@ import com.dseagull.sistemaloja.entity.Item;
 
 import java.util.List;
 
-public interface ItemEstoqueService {
+public interface ItemService {
 
     public List<Item> findAll();
 

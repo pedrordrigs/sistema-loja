@@ -2,7 +2,7 @@ package com.dseagull.sistemaloja.service.impl;
 
 import com.dseagull.sistemaloja.entity.Item;
 import com.dseagull.sistemaloja.repository.ItemRepository;
-import com.dseagull.sistemaloja.service.ItemEstoqueService;
+import com.dseagull.sistemaloja.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ItemEstoqueServiceImpl implements ItemEstoqueService {
+public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private ItemRepository itemRepository;

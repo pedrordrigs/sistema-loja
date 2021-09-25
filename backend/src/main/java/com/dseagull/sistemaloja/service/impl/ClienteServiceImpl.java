@@ -1,7 +1,8 @@
-package com.dseagull.sistemaloja.service;
+package com.dseagull.sistemaloja.service.impl;
 
 import com.dseagull.sistemaloja.entity.Cliente;
 import com.dseagull.sistemaloja.repository.ClienteRepository;
+import com.dseagull.sistemaloja.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,5 +26,11 @@ public class ClienteServiceImpl implements ClienteService {
         if (cliente.isPresent())
             return cliente.get();
         return null;
+    }
+
+    @Override
+    public Cliente save(String nome, Integer cpf) {
+        Cliente cliente = new Cliente(nome, cpf);
+        return clienteRepository.save(cliente);
     }
 }
