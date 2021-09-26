@@ -28,6 +28,10 @@ public class Venda {
     @CreationTimestamp
     private Date dataCriacao;
 
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "cliente_id")
+    private Cliente cliente;
+
     public Venda() {
     }
 

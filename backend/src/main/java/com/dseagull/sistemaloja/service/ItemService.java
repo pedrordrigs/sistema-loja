@@ -9,4 +9,6 @@ public interface ItemService {
     public List<Item> findAll();
 
     public Item findById(Long id);
+
+    public Item save(String codigo, String nome, Double preco, Integer quantidadeEstoque);
 }

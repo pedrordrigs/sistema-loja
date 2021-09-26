@@ -17,14 +17,20 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public List<Item> findAll() {
-        return itemRepository.findAll();
+        return this.itemRepository.findAll();
     }
 
     @Override
     public Item findById(Long id) {
-        Optional<Item> itemEstoque = itemRepository.findById(id);
+        Optional<Item> itemEstoque = this.itemRepository.findById(id);
         if (itemEstoque.isPresent())
             return itemEstoque.get();
         return null;
+    }
+
+    @Override
+    public Item save(String codigo, String nome, Double preco, Integer quantidadeEstoque) {
+        Item item = new Item(codigo, nome, preco, quantidadeEstoque);
+        return this.itemRepository.save(item);
     }
 }

@@ -4,11 +4,10 @@ import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -25,6 +24,9 @@ public class Cliente {
 
     @CreationTimestamp
     private Date dataCriacao;
+
+    @OneToMany(mappedBy = "venda", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private Set<ItemVenda> itens = new HashSet<>();
 
     public Cliente() {
     }

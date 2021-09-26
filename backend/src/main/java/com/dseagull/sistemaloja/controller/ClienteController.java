@@ -15,18 +15,18 @@ public class ClienteController {
 
     @GetMapping("{id}")
     public ResponseEntity<Object> getCliente(@PathVariable("id") Long id) {
-        Cliente cliente = clienteService.findById(id);
+        Cliente cliente = this.clienteService.findById(id);
         return (cliente == null) ? ResponseEntity.ok("Cliente não encontrado") : ResponseEntity.ok(cliente);
     }
 
     @GetMapping("list")
     public ResponseEntity<Object> getClientes() {
-        return ResponseEntity.ok(clienteService.findAll());
+        return ResponseEntity.ok(this.clienteService.findAll());
     }
 
     @PostMapping
-    public ResponseEntity<Object> saveCliente(@RequestParam("nome") String nome, @RequestParam("cpf") Integer cpf) {
-        Cliente cliente = clienteService.save(nome, cpf);
+    public ResponseEntity<Object> createCliente(@RequestParam("nome") String nome, @RequestParam("cpf") Integer cpf) {
+        Cliente cliente = this.clienteService.save(nome, cpf);
         return ResponseEntity.ok(cliente);
     }
 

@@ -15,12 +15,12 @@ public class UsuarioServiceImpl implements UsuarioService {
 
     @Override
     public List<Usuario> findAll() {
-        return usuarioRepository.findAll();
+        return this.usuarioRepository.findAll();
     }
 
     @Override
     public Usuario findById(Long id) {
-        Optional<Usuario> usuario = usuarioRepository.findById(id);
+        Optional<Usuario> usuario = this.usuarioRepository.findById(id);
         if (usuario.isPresent())
             return usuario.get();
         return null;

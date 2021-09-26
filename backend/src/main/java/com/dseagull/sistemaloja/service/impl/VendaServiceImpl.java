@@ -15,12 +15,12 @@ public class VendaServiceImpl implements VendaService {
 
     @Override
     public List<Venda> findAll() {
-        return vendaRepository.findAll();
+        return this.vendaRepository.findAll();
     }
 
     @Override
     public Venda findById(Long id) {
-        Optional<Venda> venda = vendaRepository.findById(id);
+        Optional<Venda> venda = this.vendaRepository.findById(id);
         if (venda.isPresent())
             return venda.get();
         return null;

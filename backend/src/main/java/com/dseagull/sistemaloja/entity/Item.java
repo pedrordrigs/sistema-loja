@@ -24,7 +24,7 @@ public class Item {
 
     private String nome;
 
-    private String preco;
+    private Double preco;
 
     private Integer quantidadeEstoque;
 
@@ -37,7 +37,7 @@ public class Item {
     public Item() {
     }
 
-    public Item(String codigo, String nome, String preco, Integer quantidadeEstoque) {
+    public Item(String codigo, String nome, Double preco, Integer quantidadeEstoque) {
         this.codigo = codigo;
         this.nome = nome;
         this.preco = preco;

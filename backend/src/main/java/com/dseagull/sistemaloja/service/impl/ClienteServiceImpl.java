@@ -17,12 +17,12 @@ public class ClienteServiceImpl implements ClienteService {
 
     @Override
     public List<Cliente> findAll() {
-        return clienteRepository.findAll();
+        return this.clienteRepository.findAll();
     }
 
     @Override
     public Cliente findById(Long id) {
-        Optional<Cliente> cliente = clienteRepository.findById(id);
+        Optional<Cliente> cliente = this.clienteRepository.findById(id);
         if (cliente.isPresent())
             return cliente.get();
         return null;
@@ -31,6 +31,6 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public Cliente save(String nome, Integer cpf) {
         Cliente cliente = new Cliente(nome, cpf);
-        return clienteRepository.save(cliente);
+        return this.clienteRepository.save(cliente);
     }
 }
