@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91c12f6b-9629-48f7-9017-be4a965102fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/entity/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/entity/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/ClienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/ClienteServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/ItemVendaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/ItemVendaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/UsuarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/VendaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dseagull/sistemaloja/service/impl/VendaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/controller/ClienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/entity/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/entity/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/entity/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/entity/Venda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/service/ItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dseagull/sistemaloja/service/impl/ItemServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +81,8 @@
       <workItem from="1632589371559" duration="255000" />
       <workItem from="1632590043244" duration="449000" />
       <workItem from="1632593281150" duration="5806000" />
-      <workItem from="1632683826422" duration="1905000" />
+      <workItem from="1632683826422" duration="2256000" />
+      <workItem from="1632707648383" duration="505000" />
     </task>
     <servers />
   </component>
